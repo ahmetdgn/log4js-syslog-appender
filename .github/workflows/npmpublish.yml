@@ -16,7 +16,7 @@ jobs:
       - run: npm install
       - run: npm test
 
-  publish-npm:
+  publish-gpr:
     needs: test
     runs-on: ubuntu-latest
     steps:
@@ -24,8 +24,9 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 10
-          registry-url: https://registry.npmjs.org/
+          registry-url: https://npm.pkg.github.com/
+          scope: '@ahmetdgn'
       - run: npm install
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

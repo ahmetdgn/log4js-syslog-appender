@@ -1,5 +1,5 @@
 {
-    "name": "@ahmetdgn/log4js-syslog-appender",
+    "name": "log4js-syslog-appender",
     "version": "0.3.3",
     "description": "syslog appender for log4js",
     "main": "index.js",
