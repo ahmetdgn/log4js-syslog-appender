@@ -1,12 +1,12 @@
 {
-    "name": "log4js-syslog-appender",
-    "version": "0.3.2",
+    "name": "@ahmetdgn/log4js-syslog-appender",
+    "version": "0.3.3",
     "description": "syslog appender for log4js",
     "main": "index.js",
-    "homepage": "https://github.com/m-reiniger/log4js-syslog-appender",
+    "homepage": "https://github.com/ahmetdgn/log4js-syslog-appender",
     "repository": {
         "type": "git",
-        "url": "https://github.com/m-reiniger/log4js-syslog-appender.git"
+        "url": "https://github.com/ahmetdgn/log4js-syslog-appender"
     },
     "engines": {
         "node": ">=0.10"
